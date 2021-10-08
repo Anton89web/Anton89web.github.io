@@ -1,0 +1,234 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  position: relative;
+}
+
+header {
+  background-color: #212121;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+nav {
+  height: 50px;
+}
+
+
+.container {
+  max-width: 1141px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 11px 18px;
+  padding-left: 67px;
+}
+
+ul li {
+  line-height: 25px;
+  border-right: 2px dotted #000;
+  padding-right: 28px;
+
+}
+
+ul li a {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  color: #FFFFFF;
+}
+
+ul li :hover {
+  text-decoration: none;
+  color: #d4cdcd;
+  transition: .2s ease-in;
+
+}
+
+.sudheader {
+  height: 84px;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+  margin-top: 50px;
+}
+
+.logo {
+  max-width: 100%;
+  display: block;
+  margin-top: 17px;
+}
+
+.logo__text {
+  margin-top: 6px;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 13px;
+  color: #FFFFFF;
+  opacity: .5;
+}
+
+.phone__text {
+  margin-top: 21px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  color: #FFFFFF;
+  text-align: right;
+}
+
+.phone_number {
+  display: block;
+  /* margin-top: 0px; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.btn_call {
+  margin: 19px 0;
+  width: 162px;
+  height: 46px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+  background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+  box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  border: none;
+}
+
+.about {
+  padding-top: 149px;
+  background: url(/img/uber_bg.jpg) center center/cover no-repeat;
+  text-align: center;
+   height: 850px;
+   
+}
+
+.container h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 54px 0 22px 15px;
+}
+
+.driver {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 17px;
+}
+
+.container p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 27px;
+}
+
+.btn2 {
+  width: 258px;
+  height: 63px;
+  margin: 89px 2px 186px 19px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+
+
+.reasons {
+  height: 849px;
+  padding: 20px 0 64px 0;
+}
+
+
+.col-md-6 {
+  display: flex;
+  margin-bottom: 26px;
+}
+
+
+
+.text_reason {
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.label {
+  width: 113px;
+  height: 24px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: black;
+  margin-bottom: 33px;
+  display: block;
+  line-height: 26px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #222222;
+  display: block;
+  margin-bottom: 16px;
+}
+
+
+span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 21px;
+  color: #1EACC7;
+}
+
+.reasons_text{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+  color: #202020;
+  text-align: left;
+}
+
+.icons{
+  padding: auto 0;
+  margin: 17px 19px 0 27px;
+}
+
